@@ -94,6 +94,19 @@ In this case, we need DashMap to ensure that the HashMap is thread-safe.
 
 #### Reflection Publisher-2
 
+1. In the Model-View Controller (MVC) compound pattern, there is no “Service” and “Repository”. Model in MVC covers both data storage and business logic. Explain based on your understanding of design principles, why we need to separate “Service” and “Repository” from a Model?
+
+Answer: We need to separate "Service" and "Repository" from a Model to make the code more modular and easier to maintain. This is also fulfill the Single Responsibility Principle, where each module has only one reason to change. 
+The separation of these two layers helps to make the code more readable and easier to understand.
+
+2. What happens if we only use the Model? Explain your imagination on how the interactions between each model (Program, Subscriber, Notification) affect the code complexity for each model?
+
+Answer: If we only use the Model without the layers, the code will be less modular and harder to maintain. 
+The interactions between each model will be more complex and harder to understand.
+
+3. Have you explored more about Postman? Tell us how this tool helps you to test your current work. You might want to also list which features in Postman you are interested in or feel like it is helpful to help your Group Project or any of your future software engineering projects.
+
+Answer: Postman is a very useful tool to test the API of the application. It helps me to test the endpoints of the application and see the response of the API.
 
 
 #### Reflection Publisher-3
